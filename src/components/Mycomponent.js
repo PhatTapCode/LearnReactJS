@@ -17,12 +17,12 @@ class Mycomponent extends React.Component {
       {
         id: 2,
         name: "Phong",
-        age: 30,
+        age: 16,
       },
       {
         id: 3,
         name: "Phu",
-        age: 20,
+        age: 70,
       },
     ],
   };
