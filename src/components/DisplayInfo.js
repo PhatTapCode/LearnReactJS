@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./DisplayInfo.scss";
 class DisplayInfo extends React.Component {
   state = {
     isShowListUser: true,
@@ -15,7 +15,7 @@ class DisplayInfo extends React.Component {
     const { listUsers } = this.props;
     //props => viết tắt properties truyền dữ liệu từ cha sang con
     return (
-      <div>
+      <div className="Display-Info-Container">
         <div>
           <span
             onClick={() => {
